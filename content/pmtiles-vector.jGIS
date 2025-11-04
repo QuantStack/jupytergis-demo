@@ -1,0 +1,48 @@
+{
+  "layers": {
+    "87c030bf-2521-4fc3-8da2-af5836d268c5": {
+      "type": "RasterLayer",
+      "parameters": {
+        "source": "d9f34b86-4d37-43d1-9bd3-af44604739d1",
+        "opacity": 1
+      },
+      "visible": true,
+      "name": "Esri.WorldTerrain Layer"
+    }
+  },
+  "layerTree": [
+    "87c030bf-2521-4fc3-8da2-af5836d268c5"
+  ],
+  "sources": {
+    "d9f34b86-4d37-43d1-9bd3-af44604739d1": {
+      "type": "RasterSource",
+      "name": "Esri.WorldTerrain",
+      "parameters": {
+        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/{variant}/MapServer/tile/{z}/{y}/{x}",
+        "minZoom": 0,
+        "maxZoom": 13,
+        "attribution": "Tiles (C) Esri -- Source: USGS, Esri, TANA, DeLorme, and NPS",
+        "provider": "Esri",
+        "urlParameters": {
+          "variant": "World_Terrain_Base"
+        },
+        "interpolate": false
+      }
+    }
+  },
+  "options": {
+    "latitude": 57.715626676479445,
+    "longitude": -18.55069394658119,
+    "bearing": 0,
+    "projection": "EPSG:3857",
+    "zoom": 3.0518886559053775,
+    "extent": [
+      -59166761.51660712,
+      -1209581.303708963,
+      -25113379.462540418,
+      17025211.969144937
+    ],
+    "pitch": 0
+  },
+  "metadata": {}
+}

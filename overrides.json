@@ -1,0 +1,8 @@
+{
+  "@jupytergis/jupytergis-core:jupytergis-settings": {
+    "stacBrowserDisabled": true,
+    "annotationsDisabled": true,
+    "objectPropertiesDisabled": true,
+    "filtersDisabled": true
+  }
+}
